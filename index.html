@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Bootstrap icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+
+    <title>Only Bootstrap</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg" data-bs-theme="light">
+      <div class="container-fluid">
+        <a
+          class="navbar-brand"
+          style="width: 5%"
+          href="https://nitmanipur.ac.in/"
+        >
+          <img src="images/logo.png" width="100%" alt="NIT Manipur Logo" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="https://nitmanipur.ac.in/"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://www.nitmanipur.ac.in/about_nitmanipur"
+                >About Us</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Branches
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="https://www.nitmanipur.ac.in/department_cse"
+                  >
+                    Computer Science and Engineering
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="https://www.nitmanipur.ac.in/department_me"
+                  >
+                    Mechanical Engineering
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="https://www.nitmanipur.ac.in/department_ce"
+                  >
+                    Civil Engineering
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="https://www.nitmanipur.ac.in/department_eee"
+                  >
+                    Electrical Engineering
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="https://www.nitmanipur.ac.in/department_ece"
+                  >
+                    Electronics & Communication Engineering
+                  </a>
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="https://www.nitmanipur.ac.in/department_bsh"
+                  >
+                    Basic Sciences & Humanities
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.nitmanipur.ac.in/contact_us"
+                >Contact Us</a
+              >
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- slider -->
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="images/carousel1.png"
+            class="d-block w-100"
+            style="height: 400px"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="images/carousel2.png"
+            class="d-block w-100"
+            style="height: 400px"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="images/carousel3.png"
+            class="d-block w-100"
+            style="height: 400px"
+            alt="..."
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- container -->
+    <div class="container-fluid">
+      <!-- taging -->
+      <div class="row pt-3 pb-3">
+        <div class="col text-center mt-4">
+          <h1 class="display-6">
+            NIT Manipur is a premier technical institute established in 2010.
+            <br />
+            It offers quality education and fosters innovation in engineering
+            and science.
+          </h1>
+        </div>
+      </div>
+
+      <!-- developer -->
+      <div class="row justify-content-evenly pt-3 pb-3">
+        <div class="col-md-3 pt-3 text-center">
+          <h1><i class="bi bi-file-code-fill text-primary"></i></h1>
+          <h5>Academic Excellence</h5>
+          <p>
+            NIT Manipur offers top-tier engineering education with
+            well-structured curriculum, expert faculty, and modern labs.
+          </p>
+        </div>
+        <div class="col-md-3 pt-3 text-center">
+          <h1><i class="bi bi-easel-fill text-danger"></i></h1>
+          <h5>Innovative Research</h5>
+          <p>
+            The institute promotes research and innovation across disciplines
+            with dedicated centers and active projects.
+          </p>
+        </div>
+        <div class="col-md-3 pt-3 text-center">
+          <h1><i class="bi bi-calendar-range-fill text-success"></i></h1>
+          <h5>Student Life</h5>
+          <p>
+            NIT Manipur fosters a vibrant campus culture with tech fests, clubs,
+            and diverse student activities year-round.
+          </p>
+        </div>
+      </div>
+
+      <hr />
+
+      <!-- growth -->
+      <div class="row justify-content-evenly pt-3 pb-3">
+        <div class="col-md-5 mt-3">
+          <img
+            src="images/growth.png"
+            width="100%"
+            height="100%"
+            class="image-fluid"
+            alt=""
+          />
+        </div>
+        <div class="col-md-5 mt-3">
+          <h5>Computer Science and Engineering</h5>
+          <div
+            class="progress"
+            role="progressbar"
+            aria-label="Success example"
+            aria-valuenow="75"
+            aria-valuemin="0"
+            aria-valuemax="100"
+          >
+            <div class="progress-bar bg-success" style="width: 75%"></div>
+          </div>
+          <br />
+
+          <h5>Mechanical Engineering</h5>
+          <div
+            class="progress"
+            role="progressbar"
+            aria-label="Info example"
+            aria-valuenow="50"
+            aria-valuemin="0"
+            aria-valuemax="100"
+          >
+            <div class="progress-bar bg-info" style="width: 50%"></div>
+          </div>
+          <br />
+          <h5>Electrical Engineering</h5>
+          <div
+            class="progress"
+            role="progressbar"
+            aria-label="Warning example"
+            aria-valuenow="75"
+            aria-valuemin="0"
+            aria-valuemax="100"
+          >
+            <div class="progress-bar bg-warning" style="width: 75%"></div>
+          </div>
+          <br />
+          <h5>Civil and Engineering</h5>
+          <div
+            class="progress"
+            role="progressbar"
+            aria-label="Danger example"
+            aria-valuenow="100"
+            aria-valuemin="0"
+            aria-valuemax="100"
+          >
+            <br />
+            <div class="progress-bar bg-danger" style="width: 100%"></div>
+          </div>
+          <br />
+          <h5>Other Department</h5>
+          <div
+            class="progress"
+            role="progressbar"
+            aria-label="Danger example"
+            aria-valuenow="80"
+            aria-valuemin="0"
+            aria-valuemax="100"
+          >
+            <br />
+            <div class="progress-bar bg-primary" style="width: 80%"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- address -->
+      <div
+        class="row justify-content-evenly mt-5 mb-5"
+        style="background-color: #f1f1f1"
+      >
+        <div class="col-md-5 pt-5">
+          <form>
+            <div class="mb-3">
+              <label for="fullName" class="form-label">Full Name</label>
+              <input type="text" class="form-control" id="fullName" />
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label"
+                >Email address</label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+              />
+              <div id="emailHelp" class="form-text">
+                We'll never share your email with anyone else.
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label"
+                >Message</label
+              >
+              <textarea
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                rows="3"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-danger">Submit</button>
+          </form>
+        </div>
+        <div class="col-md-5 pt-5">
+          <h3>Address</h3>
+          <p>
+            Langol, Lamphelpat, Imphal West <br />
+            Manipur - 795004, India <br />
+            <i class="bi bi-telephone"></i>: +91-385-2413031
+          </p>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.9312484069765!2d93.91010517542381!3d24.8320246779479!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x37492882674dc4bf%3A0x9d4548feb7e9541d!2sNational%20Institute%20of%20Technology%2C%20Manipur!5e0!3m2!1sen!2sin!4v1753247042951!5m2!1sen!2sin"
+            width="100%"
+            height="250"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+
+      <!-- FAQ -->
+      <div class="row justify-content-evenly pt-3 pb-3">
+        <div class="col-10">
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                >
+                  About NIT Manipur
+                </button>
+              </h2>
+              <div
+                id="collapseOne"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <strong>NIT Manipur was established in 2010</strong> as an
+                  Institute of National Importance. It aims to provide
+                  high-quality technical education and foster a strong research
+                  culture. The campus is located in a scenic and peaceful
+                  environment at Langol, Imphal.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="collapseTwo"
+                >
+                  Academic Programs
+                </button>
+              </h2>
+              <div
+                id="collapseTwo"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <strong
+                    >NIT Manipur offers B.Tech, M.Tech, M.Sc., and Ph.D.
+                    programs</strong
+                  >
+                  across various disciplines including CSE, ECE, EEE, Civil, and
+                  Mechanical Engineering. The curriculum is designed to meet
+                  global standards and is regularly updated.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree"
+                  aria-expanded="false"
+                  aria-controls="collapseThree"
+                >
+                  Campus Facilities
+                </button>
+              </h2>
+              <div
+                id="collapseThree"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <strong
+                    >The campus of NIT Manipur offers modern facilities</strong
+                  >
+                  including smart classrooms, well-equipped laboratories, a
+                  central library, hostels, sports complexes, and high-speed
+                  internet. The institute encourages a healthy balance of
+                  academics and extracurriculars.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- footer -->
+      <div class="row justify-content-evenly mt-5 bg-dark text-white">
+        <div class="col-md-3">
+          <h3 class="pt-3">NIT Manipur</h3>
+          <p>
+            National Institute of Technology Manipur is one of the 31 NITs in
+            India, established in 2010. It strives for excellence in technical
+            education and research, located in the serene hills of Imphal.
+          </p>
+        </div>
+
+        <div class="col-md-3">
+          <h3 class="pt-3">Important Links</h3>
+          <a
+            href="https://www.nitmanipur.ac.in/"
+            style="text-decoration: none; color: white"
+            >Home</a
+          >
+          <br />
+          <a
+            href="https://www.nitmanipur.ac.in/about_nitmanipur"
+            style="text-decoration: none; color: white"
+            >About Us</a
+          >
+          <br />
+          <a
+            href="https://www.nitmanipur.ac.in/contact_us"
+            style="text-decoration: none; color: white"
+            >Contact Us</a
+          >
+          <br />
+          <a
+            href="https://www.nitmanipur.ac.in/academic_programs"
+            style="text-decoration: none; color: white"
+            >Departments</a
+          >
+        </div>
+
+        <div class="col-md-3">
+          <h3 class="pt-3">Contact Us</h3>
+          <p>
+            Langol, Lamphelpat, Imphal West <br />
+            Manipur - 795004, India <br />
+            <i class="bi bi-telephone"></i>: +91-385-2413031
+          </p>
+        </div>
+      </div>
+
+      <!-- copyright -->
+      <div class="row bg-light pt-3 pb-3">
+        <div class="col-12 text-center">
+          <p class="mb-0 text-muted">
+            © 2010–2025 National Institute of Technology Manipur. All rights
+            reserved.
+          </p>
+        </div>
+      </div>
+
+      <!-- container end -->
+    </div>
+
+    <!-- Bootstrap JavaScript -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
