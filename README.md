@@ -1,4 +1,13 @@
 # NIT Manipur Portfolio
+<p align="center">
+  <a href="https://college-portfolio-xi.vercel.app" target="_blank">
+    <img src="https://img.shields.io/badge/Live%20Demo-Visit%20Portfolio-brightgreen?style=for-the-badge&logo=vercel&logoColor=white" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/dk2430098/college_portfolio" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub%20Repo-View%20Code-black?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+</p>
 
 A responsive portfolio website for the National Institute of Technology (NIT) Manipur, built using **HTML5**, **CSS3**, and **Bootstrap 5**.
 
